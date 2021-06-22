@@ -1,0 +1,27 @@
+body {
+    margin: auto;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    font-size: 3rem;
+    font-family: Tahoma, sans-serif;
+    text-shadow: 1px 1px 10px white;
+}
+
+#hex-color-change {
+    height: 6.25rem;
+    width: 12.5rem;
+    color: firebrick;
+    background-color: lightblue;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: Tahoma, sans-serif;
+}
