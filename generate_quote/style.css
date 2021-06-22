@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    width: 50%;
+    font-size: 2rem;
+    font-family: cursive;
+    height: 180px;
+}
+
+button {
+    margin-top: 1rem;
+    height: 4rem;
+    width: 10rem;
+    color: darkblue;
+    background-color: lightgrey;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: serif;
+}
