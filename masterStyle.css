@@ -1,0 +1,22 @@
+body {
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-bottom: .75rem;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    font-size: 1.25rem;
+    padding: 1rem;
+    padding-left: 3rem;
+}
