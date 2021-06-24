@@ -46,7 +46,7 @@ h1 {
 
 @media screen and (max-width: 480px){
     h1 {
-        font-size: 3.5rem;
+        font-size: 2rem;
         margin: 0;
     }
 
@@ -58,11 +58,13 @@ h1 {
         position: fixed;
         left: 0vw;
         top: 48vh;
+        height: 8%;
     }
 
     .arrow-right {
         position: fixed;
         right: 0vw;
         top: 48vh;
+        height: 8%;
     }
 }
