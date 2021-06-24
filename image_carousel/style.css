@@ -1,29 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
-@media only screen and (min-width: 9px, max-width: 480px){
-    h1 {
-        font-size: 5rem;
-        position: absolute;
-        top: 1%;
-    }
-
-    .container {
-        width: 85vw;
-    }
-
-    .arrow-left {
-        position: fixed;
-        left: 0vw;
-        top: 48vh;
-    }
-
-    .arrow-right {
-        position: fixed;
-        right: 0vw;
-        top: 48vh;
-    }
-}
-
 body {
     background-color: aliceblue;
     display: flex;
@@ -42,7 +18,7 @@ h1 {
 
 .container {
     min-height: 50vh;
-    width: 50vw;
+    width: 75vw;
     border: 5px solid #3495ed;
     border-radius: 5px;
     background-size: cover;
@@ -58,12 +34,35 @@ h1 {
 
 .arrow-left {
     position: fixed;
-    left: 22vw;
+    left: 7vw;
     top: 48vh;
 }
 
 .arrow-right {
     position: fixed;
-    right: 22vw;
+    right: 7vw;
     top: 48vh;
+}
+
+@media screen and (max-width: 480px){
+    h1 {
+        font-size: 3.5rem;
+        margin: 0;
+    }
+
+    .container {
+        width: 85vw;
+    }
+
+    .arrow-left {
+        position: fixed;
+        left: 0vw;
+        top: 48vh;
+    }
+
+    .arrow-right {
+        position: fixed;
+        right: 0vw;
+        top: 48vh;
+    }
 }
