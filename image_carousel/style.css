@@ -17,7 +17,7 @@ h1 {
 }
 
 .container {
-    min-height: 50vh;
+    min-height: 70vh;
     width: 75vw;
     border: 5px solid #3495ed;
     border-radius: 5px;
@@ -34,13 +34,13 @@ h1 {
 
 .arrow-left {
     position: fixed;
-    left: 7vw;
+    left: 9vw;
     top: 48vh;
 }
 
 .arrow-right {
     position: fixed;
-    right: 7vw;
+    right: 9vw;
     top: 48vh;
 }
 
